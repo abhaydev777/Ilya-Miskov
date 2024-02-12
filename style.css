@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+
+}
+
+.nav .leftn {
+    display: flex;
+    align-items: center;
+}
+
+.nav .leftn h1 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.nav .leftn h3 {
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    margin-top: 2vw;
+}
+
+.dash {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 2vw;
+}
+
+.nav .rightn {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.nav .rightn h3 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.nav .rightn i {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.mainp {
+    width: calc(100% - 5vw);
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 5vw;
+}
+
+.mainptop h3 {
+    font-size: 2vw;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    top: 5vw;
+}
+
+.mainpbtm h1 {
+    font-size: 8vw;
+    font-weight: 400;
+    width: 100%;
+    line-height: 8vw;
+}
+
+.page2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5vw;
+}
+
+.page2 .snav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lsnav h3 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.rsnav {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.rsnav .dash1 {
+    width: 5vw;
+    height: 1px;
+    background-color: black;
+}
+
+.rsnav h3 {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.cards {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    gap: 10vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards .card {
+    background-color: red;
+    width: 40%;
+    height: 70vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards .card:nth-child(1) {
+    background-image: url("https://images.unsplash.com/photo-1561070791-2526d30994b5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c2tldGNoJTIwZGVzaWdufGVufDB8fDB8fHww");
+    background-size: cover;
+    
+}
+
+.cards .card:nth-child(2) {
+    background-image: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wfGVufDB8fDB8fHww");
+    background-size: cover;
+    
+}
+
+.sfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20vw;
+}
+
+.sfooter .lsfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.lsl h3{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.lsl p{
+    font-size: 1vw;
+    font-weight: 500;
+    color: rgb(160, 160, 160);
+}
+
+.lsr i{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding: 1vw 1.8vw;
+    border: 1px solid black;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.lsr i:hover {
+    background-color: black;
+    color: white;
+
+}
+
+.sfooter .rsfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+@keyframes anim {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
